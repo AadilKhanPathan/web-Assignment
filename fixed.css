@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    /* background-color: rgb(27, 37, 66); */
+    background-color: rgb(27, 37, 66);
+    
+}
+
+.heading{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 0%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box2{
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+.links{
+    color: aliceblue;
+    display: flex;
+    /* gap: 2rem; */
+    list-style: none;
+}
+
+.links li{
+    padding: 21px;
+}
+.Search {
+    height: 40px;
+    width: 250px;
+    padding: 0 10px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.magni {
+    background-color: aliceblue;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.links li:hover{
+    /* background-color: rgba(255, 207, 13, 0.986); */
+    background-color: rgba(255, 217, 27, 0.986);
+    color:  rgb(27, 37, 66);
+}
+
+
+/* =========== -- card creation -- ============ */
+img{
+    height: 200px;
+    width: 300px;
+    border-radius: 1.25rem;
+}
+/* ===== Container ===== */
+.container {
+    min-height: 100vh;
+    background-color: rgb(2, 25, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== Card ===== */
+.card {
+    width: 340px;
+    background-color: #f2f8ff;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+
+/* ===== Image ===== */
+.card-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+
+/* ===== Tags ===== */
+.card-tags {
+    margin: 15px 0;
+}
+
+.card-tags span {
+    background-color: #b7d9ff;
+    color: #0047aa;
+    padding: 6px 14px;
+    border-radius: 50px;
+    font-size: 13px;
+    margin-right: 8px;
+}
+
+/* ===== Content ===== */
+.card-content h3 {
+    color: #123;
+    margin-bottom: 10px;
+}
+
+.card-content p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #355;
+}
+
+/* ===== Button ===== */
+.card-btn {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-btn button {
+    border: none;
+    padding: 10px 50px;
+    border-radius: 50px;
+    background-color: rgb(1, 32, 126);
+    color: #e5e8ec;
+    font-weight: 500;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card-btn button:hover {
+    background-color: rgba(255, 217, 27, 0.986);
+    color: rgb(1, 32, 126);
+
+}
